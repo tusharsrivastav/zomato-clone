@@ -1,0 +1,32 @@
+.delivery-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.delivery-item-img-cover {
+    height: 150px;
+    width: 150px;
+    background-color: var(--primary-bg);
+    box-shadow: var(--collection-shadow);
+    border-radius: 50%;
+}
+
+.delivery-item-img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    
+}
+
+.delivery-item-title {
+    font-size: 20px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 6px;
+    text-align: center;
+}

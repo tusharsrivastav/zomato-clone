@@ -1,5 +1,6 @@
 {
   "name": "zomato-clone",
+  "homepage": "http://tushardevelops.com/zomato-clone",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

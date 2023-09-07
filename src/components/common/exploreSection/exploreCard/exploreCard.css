@@ -1,0 +1,129 @@
+.explore-card {
+    margin: 12px 0 24px 0;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+}
+
+.explore-card-cover {
+    height: 248px;
+    width: 328px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.explore-card-img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   border-radius: 15px;
+}
+
+.pro-off {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    background-color: var(--tag-red);
+    color: var(--primary-bg);
+    font-size: 14px;
+    padding: 0 6px;
+    border-radius: 0 2px 2px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.discount {
+    position: absolute;
+    left: 0;
+    bottom: 14px;
+    background-color: var(--tag-blue);
+    color: var(--primary-bg);
+    font-size: 14px;
+    padding: 0 6px;
+    border-radius: 0 2px 2px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.gold-off {
+    position: absolute;
+    left: 0;
+    bottom: 14px;
+    background-color: var(--tag-red);
+    color: var(--primary-bg);
+    font-size: 14px;
+    padding: 0 6px;
+    border-radius: 0 2px 2px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.res-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0 0;
+}
+
+.res-name {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--heading-text);
+}
+
+.res-rating {
+    padding: 0 6px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--primary-bg);
+    background-color: var(--tag-green);
+    border-radius: 6px;
+    height: 24px;
+}
+
+.res-rating i {
+    font-size: 10px;
+    margin-left: 2px;
+}
+
+.res-cuisine {
+    max-width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.res-cuisine-tag {
+    margin-right: 4px;
+    color: var(--inactive-text);
+}
+
+.res-price {
+    font-size: 14px;
+    color: var(--inactive-text);
+}
+
+.delivery-time {
+    float: right;
+    right: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.explore-card:hover {
+    background-color: var(--primary-bg);
+    border: 1px solid var(--border-white);
+    box-shadow: var(--gray) 0px 8px 35px;
+}
